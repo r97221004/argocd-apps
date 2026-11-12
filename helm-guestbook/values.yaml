@@ -1,0 +1,10 @@
+# Default values. Argo CD renders the chart with these unless the Application overrides them.
+replicaCount: 1
+
+image:
+  repository: gcr.io/google-samples/gb-frontend
+  tag: v5
+
+service:
+  type: ClusterIP
+  port: 80

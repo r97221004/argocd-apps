@@ -1,0 +1,6 @@
+apiVersion: v2
+name: helm-guestbook
+description: The guestbook UI as a Helm chart, for the Argo CD Helm chapters of argoCD-tutorial.
+type: application
+version: 0.1.0
+appVersion: "v5"
