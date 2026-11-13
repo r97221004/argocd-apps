@@ -1,2 +1,2 @@
-# Production overrides, layered on top of values.yaml.
-replicaCount: 3
+service:
+  type: LoadBalancer
